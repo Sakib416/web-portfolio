@@ -1,21 +1,52 @@
-body h1{
-    font-family: 'Orelega One', cursive;
-}
 
+body{ 
+    margin: 0px;
+
+}
 h1{
-    font-size: 50px;
+    font-size: 35px;
+    font-family: 'Orelega One', cursive;
 }
 .name-highlight{
     color: orange;
 }
+p{
+    color: dimgray;
+}
 .half-width{
    
     width:40% ;
-    float: left;
-    margin-left:5%;
+   float: left;
+ margin-left: 5px;
     padding: 2%;
 }
 .half-width img{
     width: 100%;
+
+}
+.top-banner{
+    
+    background-image: url("my image/bg.png");
+    margin-left: 0px;
+    background-repeat: no-repeat;
+    
+    }
+section .top-banner{
+     height: 500px;
+        margin:0px;
+
+    }
+.link-button{
+    border:2px solid red;
+    border-radius: 5px;
+    background-color: orange;
+    text-decoration: none;
+    padding: 10px 10px ;
+    color: whitesmoke;
+    font-weight: 700;
+    background-image: linear-gradient(45deg, salmon, tomato);
+}
+.dream-big{
+    background-image: url(Backgorund/dream-bg.png);
 }
 
