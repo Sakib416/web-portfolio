@@ -7,6 +7,7 @@ h1{
     font-size: 35px;
     font-family: 'Orelega One', cursive;
 }
+
 .name-highlight{
     color: orange;
 }
@@ -15,25 +16,20 @@ p{
 }
 .half-width{
    
-    width:40% ;
+    width:40%;
    float: left;
- margin-left: 5px;
-    padding: 2%;
+ margin-left: 10px;
+    padding-left: 2%;
 }
 .half-width img{
-    width: 100%;
+    width: 80%;
 
 }
 .top-banner{
     
-    background-image: url("my image/bg.png");
+    background-image: url("my-image/bg.png");
     margin-left: 0px;
     background-repeat: no-repeat;
-    
-    }
-section .top-banner{
-     height: 500px;
-        margin:0px;
 
     }
 .link-button{
@@ -41,12 +37,45 @@ section .top-banner{
     border-radius: 5px;
     background-color: orange;
     text-decoration: none;
-    padding: 10px 10px ;
+    padding: 10px 20px ;
     color: whitesmoke;
     font-weight: 700;
     background-image: linear-gradient(45deg, salmon, tomato);
 }
 .dream-big{
-    background-image: url(Backgorund/dream-bg.png);
+    background-image: url(Background/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+   
+}
+section{
+    height: 500px;
+}
+.shadow{
+    box-shadow: 10px 10px 40px gray;
+    height: 50%;
+    border-radius: 5px;
+    padding-left: 5%;   
+    padding-top: 4%; 
+    
+    
+}
+.experience-area{
+    background-image: url(my-image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 40px;
+    
+}
+#first{
+    border-left: 7px solid red;
+    border-image: linear-gradient (180deg, red, tomato);
+    border-image-slice: 1 ;
+    
+}
+#second{
+    border-left: 7px solid blue;
+    border-image: linear-gradient (180deg, blue, cyan);
+    border-image-slice: 1 ;
 }
 

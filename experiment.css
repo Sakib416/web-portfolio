@@ -1,0 +1,11 @@
+body{
+    margin: 0px;
+}
+.tom{
+    height: 500px;
+    width: auto;
+    padding: 2px;
+    background-image: url(Background/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right
+}
